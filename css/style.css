@@ -1,0 +1,147 @@
+.bad-script-regular {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #f1ecf3;
+  text-align: center;
+  /* font-family: sans-serif; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header {
+  /* border: 2px solid red; */
+}
+
+header nav {
+  background-color: #000000;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  padding-block: 24px;
+}
+
+header nav a {
+  color: bisque;
+  /* зовнішні відступи налаштовуються через margin */
+  /* margin-left: 24px;
+  margin-right: 24px; */
+  margin-inline: 24px;
+  font-size: 20px;
+  /* transition: color 0.5s ease-in-out; */
+  transition: color 0.5s cubic-bezier(0.04, 1.06, 0.65, 1.28);
+}
+
+header nav a:hover {
+  color: red
+}
+
+main {
+  /* border: 2px solid red; */
+}
+
+.main .info {
+  /* background-color: green;  */
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  column-gap: 100px;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main .info .paragrafs {
+  /* background-color: yellow; */
+text-align: left;
+}
+
+.main .info img {
+  /* background-color: blue; */
+  padding: 20px;
+  /* width: 33%; */
+  max-width: 500px;
+  width: 100%;
+}
+
+
+h1 {
+  color: rgb(51, 54, 85);
+}
+
+p {
+  color: #000000;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.logo {
+  /* border-radius: 20px 40px 60px 80px ; */
+  /* border-radius: 128px; */
+  border-radius: 50%;
+}
+main.foto section{
+  height: 600px;
+  /* background-color: aquamarine; */
+}
+main.foto section div{
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 3%;
+  justify-content: center;
+}
+main.foto section div img{
+  width: 30%;
+}
+.video {
+  background-color: #000000;
+}
+
+.video hr {
+  border-width: 10px;
+  border-style: solid;
+  /* border-style: dotted; */
+  /* border-style: dashed ; */
+  border-color: red;
+
+}
+
+.author h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.author h3 {
+  font-size: 24px;
+}
+
+.author p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.author p::first-letter {
+  font-size: 28px;
+  color: red;
+}
+
+
+
+
+
+
+footer {
+  /* border: 2px solid red; */
+}
